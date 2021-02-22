@@ -1,4 +1,2 @@
-definition_values#:#Konfiguration der Auswahlisten
-ms_type_name#:#Auswahlliste (Mehrfachauswahl)
-ms_form_update#:#Mehrfachauswahl bearbeiten
-ms_entries#:#Einträge
+clt_type_name#:#Lizenztyp
+clt_form_update#:#Lizenztype bearbeiten

@@ -4,12 +4,12 @@
 /**
  * @author Stefan Meyer <smeyer.ilias@gmx.de>
  */
-class ilUdfMultiSelectPlugin extends ilUDFDefinitionPlugin
+class ilUdfCountryLicenseTypePlugin extends ilUDFDefinitionPlugin
 {
     /**
      * @var string
      */
-    private const MS_SELECT_NAME = 'UdfMultiSelect';
+    private const MS_SELECT_NAME = 'UdfCountryLicenseType';
 
     /**
      * @var string
@@ -19,16 +19,16 @@ class ilUdfMultiSelectPlugin extends ilUDFDefinitionPlugin
     /**
      * @var int
      */
-    private const MS_TYPE_ID = 52;
+    private const CLT_TYPE_ID = 52;
 
     /**
-     * @var ilUdfMultiSelectPlugin
+     * @var ilUdfCountryLicenseTypePlugin
      */
     private static $instance = null;
 
     /**
      * Get singleton instance
-     * @return ilUdfMultiSelectPlugin
+     * @return ilUdfCountryLicenseTypePlugin
      */
     public static function getInstance()
     {
@@ -43,7 +43,7 @@ class ilUdfMultiSelectPlugin extends ilUDFDefinitionPlugin
             self::UDF_C_TYPE,
             self::UDF_C_NAME,
             self::UDF_SLOT_ID,
-            self::MS_SELECT_NAME
+            self::CLT_TYPE_ID
         );
     }
 
@@ -84,7 +84,7 @@ class ilUdfMultiSelectPlugin extends ilUDFDefinitionPlugin
      */
     public function getPluginName()
     {
-        return self::MS_SELECT_NAME;
+        return self::CLT_TYPE_ID;
 	}
 
     /**
@@ -92,7 +92,7 @@ class ilUdfMultiSelectPlugin extends ilUDFDefinitionPlugin
      */
     public function getDefinitionType()
     {
-        return self::MS_TYPE_ID;
+        return self::CLT_TYPE_ID;
     }
 
     public function getDefinitionTypeName()

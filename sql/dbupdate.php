@@ -1,16 +1,22 @@
 <#1>
 <?php
 $fields = [
-    'field_id' => [
+    'usr_id' => [
         'type' => 'integer',
         'length' => 4,
         'notnull' => true
     ],
-    'option' => [
+    'license_type' => [
         'type' => 'text',
         'length' => 250,
         'notnull' => false
-    ]
+    ],
+    'valid_from' => [
+        'type' => 'text',
+        'length' => 250,
+        'notnull' => false
+    ],
+
 ];
 
 $ilDB->createTable("udf_plugin_ms", $fields);

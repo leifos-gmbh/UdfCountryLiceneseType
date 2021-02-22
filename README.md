@@ -16,7 +16,7 @@ German, English
 
 
 ### Quick Installation Guide
-1. Copy the content of this folder in <ILIAS_directory>/Customizing/global/plugins/Services/User/UDFDefinition/UdfMultiSelect
+1. Copy the content of this folder in <ILIAS_directory>/Customizing/global/plugins/Services/User/UDFDefinition/UdfCountryLicenseType
 
 2. Login to ILIAS and open the administration section.
 
@@ -27,4 +27,4 @@ German, English
 6. After the plugin has been installed, open the action menu and select "Activate".
 
 7. Open the action menu and select "Refresh Languages" to update the language-files.
-# UdfMultiSelect
+# UdfCountryLicenseType
