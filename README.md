@@ -1,4 +1,4 @@
-# UdfMultiSelect
+# UdfCountryLicenseType
 
 This ILIAS plugin provides a custom user data field that provides the possibility to create cascading selection lists.
 
